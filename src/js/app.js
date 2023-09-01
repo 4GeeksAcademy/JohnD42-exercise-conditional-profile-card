@@ -63,10 +63,10 @@ function render(variables = {}) {
           <h2>${role}</h2>
           <h3>${city}, ${country}</h3>
           <ul class=${ulClass}>
-            <li><a href=${twitterVar}><i class="fab fa-twitter"></i></a></li>
-            <li><a href=${githubVar}><i class="fab fa-github"></i></a></li>
-            <li><a href=${linkedinVar}><i class="fab fa-linkedin"></i></a></li>
-            <li><a href=${instagramVar}><i class="fab fa-instagram"></i></a></li>
+            <li><a href=${twitterVar}><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=${githubVar}><i class="fa-brands fa-github"></i></a></li>
+            <li><a href=${linkedinVar}><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=${instagramVar}><i class="fa-brands fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
